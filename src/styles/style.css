@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    background-color: #fff;
+  }
+  
+  html {
+    scroll-behavior:smooth
+  }
+  
+  header{
+    width: 100%;
+    height: 1080px;
+  }
+  
+  section{
+    margin-top: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header > section > h1{
+    font-size: 24px;
+    color: #445964;
+  }
+  
+  #logo-header{
+    max-width: 2.8rem;
+    width: auto;
+    height: auto;
+  }
+  
+  section > nav{
+    margin-left: 12rem;
+  }
+  
+  nav{
+    display: flex;
+    gap: 93px;
+  }
+  
+  nav > a{
+    font-size: 18px;
+  }
+  
+  article{
+    margin-top: 9rem;
+    margin-left: 8rem;
+  }
+  
+  .main-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 28rem;
+  }
+  
+  article > p{
+    width: 250px;
+    font-size: 18px;
+    height: auto;
+    margin-bottom: 7rem;
+    color: #445964;
+  }
+  
+  #main-header-span{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 95px;
+  }
+  
+  article > button{
+    margin-top: -5rem;
+    width: 240px;
+    height: 85px;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 24px;
+    background-color: #263138;
+    color: #fbfbfb;
+  }
+  
+  article > div{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+    gap: 2.7rem;
+  }
+  
+  article > div > a > img{
+    width: 3.7rem; 
+    height: auto;
+    color: #445964;
+  }
+  
+  aside{
+    margin-top: 9rem;
+  }
+  
+  aside > img {
+    width: 600px;
+    height: auto;
+  }
+  
+  main{
+    margin-top: -10rem;
+  }
+  
+  main > section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #img-main{
+    aspect-ratio: 1/1;
+    width: 300px;
+    height: auto;
+  }
+  
+  main > section > h1{
+    font-size: 48px;
+    color: #445964;
+  }
+  
+  main > section > p{
+    font-size: 22px;
+    color: #263138;
+  }
+  
+  #h1-skills{
+    margin-top: 3rem;
+  }
+  
+  .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    padding: 50px;
+    margin-top: -8rem;
+  }
+  
+  .sigle-skills{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-portifolio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+  
+  .text-portifolio{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 4rem;
+    margin-left: -44rem;
+    margin-bottom: 5rem;
+  }
+  
+  section > div > h1{
+    font-size: 48px;
+    color: #445964;
+  }
+  
+  section > div > p{
+    font-size: 18px;
+    color: #263138;
+    font-weight: 600;
+  }
+  
+  .section-portifolio{
+    margin-bottom: 10rem;
+  }
+  
+  .portifolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .portifolio-carrossel {
+    overflow: hidden;
+    width: 548px;
+    height: 489px;
+    position: relative;
+    margin: 0 auto;
+   }
+   
+   .carrossel-item {
+    position: absolute;
+    opacity: 0;
+   }
+  
+   .carrossel-item:first-child{
+    opacity: 1;
+   }
+  
+   .portifolio-carrossel .carrossel-item img {
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat;
+   }
+   
+   .section-portifolio > .portifolio > button{
+    width: 80px;
+    height: 80px;
+    font-size: 48px;
+    border-radius: 10px;
+    border: none;
+    outline: 4px solid #445964;
+    color: #445964;
+    cursor: pointer;
+   }
+  
+   .techs{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 10rem;
+   }
+  
+   .techs > h1{
+    font-size: 72px;
+    color: #445964;
+   }
+   
+   .techs > div{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+   }
+  
+   .techs > div > img{
+    display: flex;
+    align-items: center;
+    width: 128px;
+    height: 128px;
+    margin-bottom: 2rem;
+   }
+  
+   #logo-react{
+    height: 118px;
+   }
+  
+   .techs > h3{
+    font-size: 30px;
+    color: #0000007c;
+   }
+  
+   .techs > h4{
+    font-size: 26px;
+    color: #263138;
+    margin-top: -20px;
+    margin-bottom: 3rem;
+   }
+  
+   footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+   }
+  
+   .text-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    align-items:end;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-left: 50rem;
+    margin-bottom: 5rem;
+   }
+  
+   footer > div > h1{
+    font-size: 72px;
+    color: #445964;
+   }
+  
+  #first-p-footer{
+    font-size: 18px;
+    color: #263138;
+    font-weight: 500;
+  }
+  
+   #dialog{
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+    gap: 20px;
+    padding: 3rem;
+   }
+  
+  .squad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 530px;
+    height: 260px;
+    border-radius: 20px;
+  }
+  
+  .squad > p{
+    font-size: 32px;
+    font-weight: 500;
+    color: #fbfbfb;
+    margin-left: 1rem;
+  }
+  
+  #p-squad1, #p-squad3{
+    background-color: #263138;
+  }
+  
+  #squad2, #p-squad2{
+    background-color: #445964;
+  }
+  
+  #squad1, #squad3{
+    margin-top: 6.5rem;
+    background-color: #263138;
+  }
+  
+  #final-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #final-message > p{
+    font-size: 24px;
+    color: #263138;
+    font-weight: 500;
+    margin-left: 1.3rem;
+  }
+  
+  .final-message-span{
+    color: #263138;
+  }
+  
+  #final-message > h1{
+    font-size: 42px;
+    color: #263138;
+  }
